@@ -1,0 +1,53 @@
+name: fullscreen
+description: A new Flutter application.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+
+  flutter_spinkit: ^4.0.0
+
+  # play videos
+  video_player: ^2.0.2
+
+  # pick video from file system
+  file_picker: ^2.1.6
+
+  # prevent screen from sleeping
+  wakelock: ^0.5.0+2
+
+  # switch orientation
+  auto_orientation: 1.0.1
+
+  # listen to orientation
+  native_device_orientation: ^0.4.3
+
+  provider: ^5.0.0
+
+  battery: ^2.0.1
+
+  flutter_ffmpeg: ^0.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - images/playstore.png
